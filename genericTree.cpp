@@ -212,13 +212,17 @@ int main()
     cout<<"Total Node: "<<countNode(root)<<endl;
     cout<<"Leaf Node is: "<<countLeafNode(root);
     cout<<endl<<"Height is: "<<height(root)<<endl;
+    cout<<"Nodes are at a level of 1: ";
     printAtLevelK(root,1);
     cout<<endl;
+    cout<<"pre order trversal: ";
     preOrder(root);
     cout<<endl;
+    cout<<"post order trversal: ";
     postOrder(root);
 
     delete root;
+    
     
     return 0;
     
